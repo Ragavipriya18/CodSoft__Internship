@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        <script src="portfolio.js"></script>
+       
+    </head>
+    <body>
+        <div id="navbar">
+            <div class="navbar">
+                <div class="logo">Ragavi</div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skill">Skills</a></li>
+                            <li><a href="#project">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Home-->
+
+                <div class="home" id="home">
+                    <div class="content">
+                        <div class="head">
+                        <h1>Hey, I'm <span>Ragavi</span></h1>
+                        <p ><span>&#128075;</span></p>
+                        </div>
+                        <h2>I'm a Front End Developer</h2>
+                        <p>Welcome to my portfolio website! I'm a passionate and creative Web Developer with a strong dedication to delivering outstanding  projects. Through a blend of innovative design, technical expertise, and a deep understanding of client needs, I strive to bring visions to life. Explore my work to see how I've helped clients achieve their goals, and feel free to reach out to discuss how I can bring your next project to life. </p>
+
+                        <a href="Resume.pdf" download><button class="button-50" role="button" >RESUME</button></a>
+
+                        
+
+                    </div>
+                    <div class="image">
+                        <img src="Profile2.jpg" alt="">
+                    </div>
+                </div>
+            
+
+            <!--About-->
+            
+            <div class="about" id="about">
+                <div class="header-about">
+                    <h1>ABOUT</h1>
+                </div>
+                <div class="about-cont">
+                <div class="about-content">
+                    <p>As a front-end developer, I am passionate about bringing digital experiences to life through the art of web design and user interface development. With a keen eye for aesthetics and a deep understanding of HTML, CSS, and JavaScript, I specialize in crafting visually appealing and user-friendly websites that not only meet but exceed the expectations of both clients and end-users.</p>
+
+                    <p> Constantly staying up-to-date with the latest industry trends and technologies, I am committed to delivering cutting-edge solutions that enhance user engagement and create lasting impressions. My dedication to clean code, performance optimization, and cross-browser compatibility ensures that every project I undertake is not just functional, but also efficient and reliable. 
+
+
+
+                    </p>
+                </div>
+
+                <div class="about-image">
+                    <img src="skills.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="icons">
+                <a href="https://instagram.com/ragavi__priya?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/Ragavipriya18"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ragavi-r-2a2a42243"><i class="fa fa-linkedin"></i></a>
+
+            </div>
+
+              
+            </div>
+
+            <!--Skills-->
+
+            <div class="skills" id="skill">
+                <div class="header-skills"><h1>SKILLS</h1></div>
+
+
+               <div class="sk">
+                <div class="progress-bar-container">
+                    <h2>
+                      <label for="html">HTML</label>
+                    </h2>
+                    <div class="progress-bar html">
+                      <progress id="html" min="0" max="100" value="92"></progress>
+                    </div>
+                  </div>
+                  
+                  <div class="progress-bar-container">
+                    <h2>
+                      <label for="css">CSS</label>
+                    </h2>
+                    <div class="progress-bar css">
+                      <progress id="css" min="0" max="100" value="87"></progress>
+                    </div>
+                  </div>
+                  
+                  <div class="progress-bar-container">
+                    <h2>
+                      <label for="js">JAVASCRIPT</label>
+                    </h2>
+                    <div class="progress-bar js">
+                      <progress id="js" min="0" max="100" value="73"></progress>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+            
+            
+                
+          <!-- Projects -->
+            <div class="projects" id="project">
+
+                <div class="header-projects"><h1>PROJECTS</h1></div>
+
+            <div class="pros">
+                <div class="pro1"><img src="project1.jpg" alt="" width="300px" height="200px"><h1>Image Color Detection</h1>
+                    
+                    
+                    <button class="button-70"  role="button" onclick="git()" >CODE</button>
+
+                </div>
+                <div class="pro2"><img src="project2.jpg" alt="" width="300px" height="200px"><h1>Farm Fab Website</h1>
+                    <button class="button-70" role="button"   onclick="git()">CODE</button>
+
+                </div>
+                <div class="pro3"><img src="project3.jpg" alt="" width="300px" height="200px"><h1>Portfolio Website</h1>
+                    <button class="button-70" role="button"   onclick="git()">CODE</button>
+                </div>
+
+            </div>
+                
+          </div>
+
+            <!-- Contact -->
+            <div class="contact" id="contact">
+                <div class="header-contact"><h1>CONTACT</h1>
+                    <br/><br/>
+                  
+                    <form id="contact-form" action='https://getform.io/f/3f73518f-bb4e-4bb7-bb35-e3c349bc3f3e' method="POST" onsubmit="return validateForm()">
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required >
+                          <span class="error" id="name-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required >
+                          <span class="error" id="email-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="phone">Phone Number:</label>
+                          <input type="phone" id="phone" name="phone" required >
+                          <span class="error" id="phone-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="message" rows="4" required></textarea>
+                          <span class="error" id="message-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <button class="button-29" role="button">Submit</button>
+                        </div>
+                      </form>
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+
+            <div class="footer">
+                 <div class="ico">
+              <a href="https://instagram.com/ragavi__priya?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"></i></a>
+              <a href="https://github.com/Ragavipriya18"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/ragavi-r-2a2a42243"><i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                  <div class="foot">
+                    <a href="#navbar"><h3>Home</h3></a>
+                    <i class="fa fa-diamond"></i>
+                    <a href="#navbar"><h3>About</h3></a>
+                    <i class="fa fa-diamond"></i>
+                    <a href="#navbar"><h3>Skills</h3></a>
+                    <i class="fa fa-diamond"></i>
+                    <a href="#navbar"><h3>Projects</h3></a>
+                    <i class="fa fa-diamond"></i>
+                    <a href="#navbar"><h3>Contact</h3></a>
+                  </div>
+                  <div class="foot1">
+                  <h2>@2023.Copyright</h2>
+                  </div>
+            </div>
+      </div>
+    </body>
+</html>
