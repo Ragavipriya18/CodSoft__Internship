@@ -1,0 +1,58 @@
+
+body {
+    background-image: url(https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Fixed background for scrolling */
+}
+.list-group-item {
+ /* Adjust the value for spacing */
+    display: flex;
+    align-items: center;
+
+}
+.task-container {
+    margin-top: 20px;
+}
+.task-text {
+    width: 280px; /* Set the desired width in pixels */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#btn-view{
+    margin-left: 5px;
+}
+#btn-delete{
+    margin-left: 5px;
+}
+#addTask{
+    margin-left: 5px;
+}
+
+#cont {
+    width: 500px;
+    margin-top: 200px;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+    body {
+        background-image: url(https://img.freepik.com/free-photo/school-supplies-arrangement-top-view_23-2149001223.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        background-attachment: fixed
+        /* Adjust background size for mobile view */
+
+
+    }
+    
+    #cont {
+    
+        width: 100%; 
+        margin-top: 190px; 
+ }
+
+}
+/* https://img.freepik.com/premium-photo/back-school-concept-top-view-photo-blue-stationery-notepads-adhesive-tape-binder-clips-pens-pencil-mini-stapler-sharpener-round-correction-tape-isolated-blue-background-with-copyspace_352249-8951.jpg?w=360 */
