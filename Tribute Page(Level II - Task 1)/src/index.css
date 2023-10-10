@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+body{
+    background-color: #020617;
+}
+
+.active {
+  color: #500724; /* Change to your desired active link color */
+  font-weight: bold; /* Change to your desired style */
+  text-decoration: underline;
+}
